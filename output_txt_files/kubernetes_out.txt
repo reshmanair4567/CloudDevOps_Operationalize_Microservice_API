@@ -6,3 +6,11 @@ NAME                       READY   STATUS              RESTARTS   AGE
 udacity-7955fb775c-klztf   0/1     ContainerCreating   0          0s
 Introducing sleep for 25seconds for pod to start
 Forwarding from [::1]:8080 -> 80
+
+(base) Reshmas-MacBook-Pro:CloudDevops_Operationalize_Microservice_API reshmanair$ ./make_prediction.sh
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
